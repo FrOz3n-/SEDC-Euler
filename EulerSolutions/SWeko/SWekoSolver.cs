@@ -11,7 +11,7 @@ namespace EulerSolutions.SWeko
     {
         public string Name
         {
-            get { return "Wekoslav Stefanovski"; }
+            get { return "Ice Jovanoski"; }
         }
 
         public IEnumerable<IProblemSolution> GetSolutions()
@@ -19,7 +19,11 @@ namespace EulerSolutions.SWeko
             List<IProblemSolution> mySolutions = new List<IProblemSolution>
             {
                 new Problem001(), 
-                new Problem002()
+                new Problem002(),
+                new Problem004(),
+                new Problem005(),
+                new Problem006(),
+                new Problem007()
             };
 
             return mySolutions;
